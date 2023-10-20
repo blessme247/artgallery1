@@ -40,7 +40,7 @@ const animatePreloader = ()=>{
   .set(".pre-loader", { display: 'none' })
   .to(".website-content",{
     opacity: 1
-  },+4.5)
+  },+1)
   
   .to(".mainOverlay", {
     width: "0%",
