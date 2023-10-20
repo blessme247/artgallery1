@@ -1,8 +1,7 @@
 let audio = document.querySelector('.bg-music')
 let soundText = document.querySelector('.sound__text')
 // soundText.innerHTML = audio.paused ? 'SOUND ON' : 'SOUND OFF';
-audio.volume = 0.2
-// audio.pause()
+audio.volume = 0.2  
 
 // soundText.addEventListener('click', () => {
 //   soundText.innerHTML = soundText.innerHTML === 'SOUND OFF' ? 'SOUND ON' : 'SOUND OFF';
@@ -39,6 +38,9 @@ const animatePreloader = ()=>{
     opacity: 0
   },+4.5)
   .set(".pre-loader", { display: 'none' })
+  .to(".website-content",{
+    opacity: 1
+  },+4.5)
   
   .to(".mainOverlay", {
     width: "0%",
