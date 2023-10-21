@@ -512,6 +512,8 @@ body #cdawrap {
 	text-align: center;
 	cursor: default;
 	pointer-events: none;
+	position: absolute;
+	z-index: 1;
 }
 
 .intro-title__main,
